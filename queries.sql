@@ -1,5 +1,4 @@
 Part 1
-
 -- Step 1: Find the crime scene report
 SELECT description
 FROM crime_scene_report
@@ -33,7 +32,6 @@ AND d.plate_number LIKE '%H42W%';
 
 
 Part 2
-
 -- Step 1: Find the interview transcript from our culprit
 SELECT transcript
 FROM interview 
